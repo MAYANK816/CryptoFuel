@@ -14,7 +14,7 @@ useEffect(() => {
     }).catch(error=>{
       console.log(error);
     });
-},[]);
+});
 
 const handleChange=(e)=>{
   setsearch(e.target.value);
